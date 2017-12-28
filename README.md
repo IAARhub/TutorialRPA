@@ -3,10 +3,10 @@ Un sencillo tutorial de como usar UIPath para extraer información de un CSV y l
 
 Usando una de las herramientas más populares en Robotic Process Automation.
 
-##Introducción
+## Introducción
 En este tutorial voy a explicar qué es Robotic Proccess Automation (RPA) y luego describiré el paso a paso para automatizar el llenado de un formulario ficticio con información extraída de un base de datos en formato CSV usando UiPath.
 
-###0- ¿Qué es RPA?
+### 0- ¿Qué es RPA?
 De acuerdo al “Institute for Robotic Process Automation & Artificial Intelligence”, RPA se entiende como:
 
 “Automatización robótica de procesos a la aplicación de tecnología que facilita a los empleados de una compañía a configurar un softbot capaz de capturar e interpretar existentes procesos de negocios, transacciones, manipulación de información y comunicación automática con otros sistemas.”
@@ -24,12 +24,12 @@ Dado a qué UIPath posee una versión gratuita, este tutorial esta basado en dic
 
 Vamos a necesitar:
 
-*UIPath Studio Community (En el tutorial usamos la versión 2017.1.6309)
-*La librería de UiPath Studio Communiy “Excel Activities”.
-*Repositorio con CSV de prueba: https://github.com/IAARhub/TutorialRPA
-*Formulario de GoogleForms de prueba: https://goo.gl/forms/HV5QjRDt0wmP6p9z2
+* UIPath Studio Community (En el tutorial usamos la versión 2017.1.6309)
+* La librería de UiPath Studio Communiy “Excel Activities”.
+* Repositorio con CSV de prueba: https://github.com/IAARhub/TutorialRPA
+* Formulario de GoogleForms de prueba: https://goo.gl/forms/HV5QjRDt0wmP6p9z2
 
-###1- UIPath, secuencias de procesos.
+### 1- UIPath, secuencias de procesos.
 Bajando la versión community de UIPath.
 Nos dirigimos a https://www.uipath.com/community y luego hacemos clic en “get community version”.
 
@@ -43,11 +43,11 @@ Y borramos la secuencia por default:
 Debería quedar así:
 
 
-####Instalando Excel activities en UIPath Studio…
+#### Instalando Excel activities en UIPath Studio…
 Vamos al icono de “paquetes” en la barra del costado izquierdo. Luego vamos a Available -> All y seleccionamos “UI.Path.Excel.Activities”, le damos al botón de “Install”. (Luego aparecerá una tilde indicando que ya esta instalado el paquete).
 
 
-#####Iniciando secuencia…
+##### Iniciando secuencia…
 Ahora necesitamos agregar la secuencia de procesos para el llenado del formulario. En Favorites -> Sequence, arrastramos el bloque de “Sequence” al diagrama de flujo de trabajo.
 
 
@@ -111,7 +111,7 @@ El cual se encuentra en UI Automation -> Browser -> Go back.
 
 Ahora hace falta extraer la información del CSV.
 
-###2- Extrayendo la información del CSV.
+### 2- Extrayendo la información del CSV.
 Bajando los archivos:
 Primero que nada precisamos bajarnos nuestro CSV de prueba, para ello vamos a : https://github.com/IAARhub/TutorialRPA
 
@@ -180,10 +180,10 @@ Hemos terminado toda nuestra secuencia, ahora volvemos al diagrama de flujo de t
 
 Y LISTO ! Felicitaciones, ya tenes tu proyecto de RPA terminado. Ahora solo queda darle “play” y ver los resultados.
 
-Fuentes y documentación:
-Definition & Benefits. Institute for Robotic Processs Automation & Artificial Intelligence (2017), recuperado de http://irpaai.com/definition-and-benefits/
-The Forrester Wave™: Robotic Process Automation, Q1 2017 (2017) https://www.edgeverve.com/wp-content/uploads/2017/02/forrester-wave-robotic-process-automation.pdf
-Repositorio de Github “TutorialRPA”, IAARhub, IAAR (2017) https://github.com/IAARhub/TutorialRPA
-Web Data Entry Automation. CSV to Salesforce — UiPath Studio (2014). UIPath, https://www.youtube.com/watch?v=EhEE_DVxaS4
+### Fuentes y documentación:
+* Definition & Benefits. Institute for Robotic Processs Automation & Artificial Intelligence (2017), recuperado de http://irpaai.com/definition-and-benefits/
+* The Forrester Wave™: Robotic Process Automation, Q1 2017 (2017) https://www.edgeverve.com/wp-content/uploads/2017/02/forrester-wave-robotic-process-automation.pdf
+* Repositorio de Github “TutorialRPA”, IAARhub, IAAR (2017) https://github.com/IAARhub/TutorialRPA
+* Web Data Entry Automation. CSV to Salesforce — UiPath Studio (2014). UIPath, https://www.youtube.com/watch?v=EhEE_DVxaS4
 
-https://planetachatbot.com/tutorial-rpa-automatizando-el-llenado-de-un-formulario-con-uipath-244f11f90403
+* https://planetachatbot.com/tutorial-rpa-automatizando-el-llenado-de-un-formulario-con-uipath-244f11f90403
